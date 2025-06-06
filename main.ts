@@ -82,7 +82,7 @@ Deno.serve(async (request: Request) => {
     const url = new URL(request.url);
     switch (url.pathname) {
       case '/': {
-        // New stylish front page content
+        // New stylish front page content // 404
         const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
