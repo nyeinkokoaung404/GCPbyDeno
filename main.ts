@@ -249,7 +249,7 @@ Deno.serve(async (request: Request) => {
         }
         
         .btn-primary {
-            background: linear-gradient(to right, #4361ee, #3a0ca3);
+            background: linear-gradient(to right, #ff0000, #3a0ca3);
             color: white;
         }
         //.btn-primary {
