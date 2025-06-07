@@ -249,9 +249,13 @@ Deno.serve(async (request: Request) => {
         }
         
         .btn-primary {
-            background: var(--primary);
+            background: linear-gradient(to right, #4361ee, #3a0ca3);
             color: white;
         }
+        //.btn-primary {
+            //background: var(--primary);
+            //color: white;
+        //}
         
         .btn-primary:hover {
             background: var(--primary-dark);
