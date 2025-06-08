@@ -2,7 +2,7 @@ import { exists } from "https://deno.land/std/fs/exists.ts";
 
 const envUUID = Deno.env.get('UUID') || 'e5185305-1984-4084-81e0-f77271159c62';
 const proxyIP = Deno.env.get('PROXYIP') || '';
-const credit = Deno.env.get('CREDIT') || 'DenoBy-ModsBots-&-404';
+const credit = Deno.env.get('CREDIT') || 'DenoBy-ModsBots';
 
 const CONFIG_FILE = 'config.json';
 
@@ -512,7 +512,7 @@ Deno.serve(async (request: Request) => {
                 <a href="/" class="nav-link">Home</a>
                 <a href="/${userID}" class="nav-link">Configuration</a>
                 <a href="https://t.me/modsbots_tech" target="_blank" class="nav-link">Support</a>
-                <a href="https://github.com/your-repo" target="_blank" class="nav-link">GitHub</a>
+                <a href="https://github.com/PlayBillbes/GCPbyDeno" target="_blank" class="nav-link">GitHub</a>
             </div>
         </nav>
     </header>
